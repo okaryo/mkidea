@@ -1,0 +1,19 @@
+[user]
+  name = okaryo
+  email = 8118okaryo@gmail.com
+
+[alias] (#これはお好きに)
+  a = add
+  b = branch
+  ch = checkout
+  st = status
+
+[color] (#色付け)
+  ui = true
+
+[url "bitbucket:"]
+    InsteadOf = https://okaryo@bitbucket.org/
+    InsteadOf = git@bitbucket.org:
+
+
+

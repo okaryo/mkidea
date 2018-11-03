@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>mkIdea</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= favicon_link_tag 'favicon2.ico' %>
+    
+  </head>
+
+  <body>
+    <header>
+      <div class="header-left">
+        <div class="header-logo">
+          <%= image_tag "bud.png" %>
+          <a>mkIdea</a>
+        </div>
+      </div>
+      <div class="header-right">
+        <div class="header-message">
+          <p>イノベーションとは新結合である。　by シュンペーター</p>
+        </div>
+      </div>
+    </header>
+    
+    <%= yield %>
+    
+  </body>
+</html>

@@ -1,0 +1,188 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+html {
+  font: 100%/1.5 'Avenir Next', 'Hiragino Sans', sans-serif;
+  line-height: 1.7;
+  letter-spacing: 1px;
+}
+
+body {
+  margin: 0px;
+}
+
+input {
+  background-color: transparent;
+  outline-width: 0;
+}
+
+form input[type="submit"] {
+  border: none;
+  cursor: pointer;
+}
+
+/* common layout ===========================*/
+.btn {
+  display: inline-block;
+  padding: 7px 20px;
+	border-radius: 25px;
+  text-decoration: none;
+  transition: .4s;
+}
+
+/* header ===========================*/
+header {
+  height: 64px;
+  width: 100%;
+  background-color: #7CD3D3;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-logo {
+  padding-left: 20px;
+  line-height: 64px;
+}
+
+.header-logo img {
+  vertical-align: middle;
+  height: 25px;
+  width: 25px;
+}
+
+.header-logo a {
+  vertical-align: middle;
+  font-size: 22px;
+}
+
+.header-right {
+  float: right;
+}
+
+.header-message {
+  padding-right: 30px;
+}
+
+/* body ===========================*/
+body {
+  height: auto;
+}
+
+/* top ===========================*/
+.main-top {
+  background-color: #B5CD6A;
+  height: 60%;
+  position: relative;
+  text-align: center;
+}
+
+.top-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 60px 15px 0;
+  clear: both;
+  text-align: center;
+}
+
+.make-idea-index {
+  margin-top: 120px;
+  text-align: center;
+  font-size: 60px;
+}
+
+.idea-1, .cross, .cross p, .idea-2 {
+  line-height: 80px;
+  vertical-align: middle;
+  margin-bottom: 20px;
+  padding: auto;
+}
+
+.idea-1 {
+  display: block;
+}
+
+.cross {
+  display: block;
+}
+
+.cross p {
+  margin: 0;
+}
+
+.idea-2 {
+  display: block;
+}
+
+.btn-index {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.make-btn {
+  background-color: #54C664;
+}
+
+.top-image {
+  height: 100px;
+  display: block;
+}
+
+.top-image img {
+  width: 100px;
+  height: 100px;
+}
+
+/* bottom ===========================*/
+.main-bottom {
+  background-color: #C3834B;
+  height: 40%;
+}
+
+.bottom-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 40px;
+  clear: both;
+  text-align: center;
+}
+
+.seed-idea-index {
+  display: inline-block;
+  padding: 40px;
+  background-color: #C07643;
+  border-radius: 50%;
+  height: 120px;
+  width: 120px;
+}
+
+.seed-idea {
+  text-align: center;
+}
+
+.seed-idea input {
+  background-color: #FFF;
+  display: block;
+  margin: 0 auto;
+  margin-top: 5px;
+}
+
+.seed-idea input[type="text"] {
+  border-radius: 10px;
+  border-width: 0;
+  height: 20px;
+}
+
+.seed-idea input[type="submit"] {
+  display: block;
+  margin: 0 auto;
+  background-color: #BE6D3F;
+  width: 102px;
+  margin-top: 10px;
+  padding: 7px 20px;
+	border-radius: 25px;
+  text-decoration: none;
+  transition: .4s;
+}

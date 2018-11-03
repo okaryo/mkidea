@@ -1,0 +1,41 @@
+<body>  
+  <div class="main main-top">
+    <div class="top-container">
+      <div class="make-idea-index">
+        <div class="idea-1">
+          <%= @idea1.idea_seed %>
+        </div>
+        <div class="cross">
+          <p>×</p>
+        </div>
+        <div class="idea-2">
+          <%= @idea2.idea_seed %>
+        </div>
+      </div>
+      <div class="btn-index">
+        <div class="make-btn btn">
+          <%= form_tag("/makeIdea") do %>
+            <input type="submit" value="アイディアを創る">
+          <% end %>
+        </div>
+      </div>
+    </div>
+    <div class="top-image">
+      <%= image_tag "bud2.png" %>
+    </div>
+  </div>
+  
+  <div class="main main-bottom">
+    <div class="bottom-container">
+      <div class="seed-idea-index">
+        <div class="seed-idea">
+          <%= form_tag("/create") do %>
+            <a>アイディアの種を植えよう</a>
+            <input type="text" name="idea_seed">
+            <input type="submit" value="植える">
+          <% end %>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
