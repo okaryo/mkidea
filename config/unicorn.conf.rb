@@ -15,6 +15,11 @@ listen  $listen
 pid $pid
 # loading booster
 preload_app true
+
+root = "/var/www/rails/mk_idea/current"
+before_exec do |server|
+  ENV["BUNDLE_GEMFILE"] = "#{root}/Gemfile"
+end
 # before starting processes
 before_fork do |server, worker|
   defined?(ActiveRecord::Base) and ActiveRecord::Base.connection.disconnect!
