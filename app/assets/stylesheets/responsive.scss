@@ -1,0 +1,32 @@
+/* css for tablet */
+@media all and (max-width: 1000px) {
+  .top-container {
+    margin: auto;
+  }
+}
+
+/* css for mobile */
+@media all and (max-width: 670px) {
+  header {
+    width: 100%;
+  }
+  
+  .header-right {
+    display: none;
+  }
+  
+  .top-container {
+    width: 100%;
+    margin: 0;
+    padding: 60px 0 0;
+  }
+  
+  .make-idea-index {
+    font-size: 40px;
+  }
+  
+  .bottom-container {
+    max-width: 100%;
+    margin: 0;
+  }
+}
